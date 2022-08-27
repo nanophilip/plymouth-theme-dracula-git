@@ -1,6 +1,6 @@
 [Plymouth Theme]
 Name=Dracula
-Description=Dracula Logo with spinning colored stripes
+Description=Dracula Logo
 ModuleName=script
 
 [script]
