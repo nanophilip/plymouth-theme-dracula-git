@@ -19,12 +19,6 @@ logo = Sprite (logo_image);
 logo.SetX (Window.GetWidth ()  / 2 - logo_image.GetWidth()  / 2);
 logo.SetY ((Window.GetHeight() * yPos) - logo_image.GetHeight() / 2);
 
-istatic = Image ("static.png");
-istatic = istatic.Scale (istatic.GetWidth() * s * 0.3 ,istatic.GetHeight() * s * 0.3 );
-static = Sprite (istatic);
-static.SetX (Window.GetWidth ()  / 2 - istatic.GetWidth()  / 2);
-static.SetY ((Window.GetHeight() * yPos) - istatic.GetHeight() / 2);
-
 if (Plymouth.GetMode () == "boot")
 {
     ipb = Image ("pb.png");
